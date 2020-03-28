@@ -179,7 +179,7 @@ h6 {
 }
 
 .nav-menu .drop-down ul {
-  display: block;
+  display: none;
   position: absolute;
   left: 25px;
   top: 100%;
@@ -193,12 +193,18 @@ h6 {
   border-radius: 5px;
 }
 
+/** Hiding drop-down menu feautre **/
+li.drop-down {
+  display: none;
+}
+
 .nav-menu .drop-down:hover > ul {
   opacity: 1;
   visibility: visible;
 }
 
 .nav-menu .drop-down li {
+  display: none;
   min-width: 180px;
   position: relative;
 }
